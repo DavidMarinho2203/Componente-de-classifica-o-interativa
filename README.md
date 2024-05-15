@@ -55,7 +55,7 @@ Gostei de usar o ForEach para meio que verificar qual item foi marcado.
 
 ## Autor
 
-- Site - [Site Ativo]()
+- Site - [Site Ativo](https://componente-de-classifica-o-interativa.vercel.app/)
 - Mentor de Frontend - [@DavidMarinho2203](https://www.frontendmentor.io/profile/DavidMarinho2203)
 
 ## Agradecimentos
