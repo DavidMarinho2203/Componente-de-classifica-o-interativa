@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/estilo.css">
+  <script src="./assets/js/index.js" defer></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+  <main>
+    <section id="avaliacao">
+      <img src="./images/icon-star.svg" alt="Icone">
+      <h1>Como fizemos?</h1>
+      <p class="container__comentario">Informe-nos como nos saímos com sua solicitação de suporte. Todos os comentários são
+        apreciados para nos ajudar a melhorar nossa oferta!</p>
+      <ul id="container__classificacao">
+        <li id="nota_1" class="classificar">1</li>
+        <li id="nota_2" class="classificar">2</li>
+        <li id="nota_3" class="classificar">3</li>
+        <li id="nota_4" class="classificar">4</li>
+        <li id="nota_5" class="classificar">5</li>
+      </ul>
+      <button type="button" id="container__enviar">Submit</button>
+    </section>
+
+    <section id="avaliado">
+      <img src="./images/illustration-thank-you.svg" alt="Icone do celular">
+      <p id="resultado"></p>
+      <h1>Obrigado!</h1>
+      <p class="container__comentario">Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte,
+        não hesite em entrar em contato!</p>
+      <button id="container__atualizar" type="button">Avaliar Novamente!</button>
+    </section>
+
+  </main>
+
+  <footer id="container__rodape" class="gap__padrao">
+    <p>Desafio do Mentor Frontend.</p>
+    <p>Codificado pelo <span>David Beckham</span></p>
+  </footer>
+</body>
+
+</html>
